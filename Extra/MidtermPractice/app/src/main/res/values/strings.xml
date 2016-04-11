@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MidtermPractice</string>
+    <string name="appListButton">App List</string>
+    <string name="historyButton">History</string>
+</resources>

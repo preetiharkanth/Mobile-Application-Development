@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.preetiharkanth.weatherapp.hw5.group26.midtermpractice.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="79dp"
+        android:weightSum="1">
+
+        <Button
+            android:layout_width="262dp"
+            android:layout_height="wrap_content"
+            android:text="@string/appListButton"
+            android:id="@+id/appListButton"
+            android:layout_gravity="center_horizontal" />
+
+        <View android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_weight="0.23" />
+        <Button
+            android:layout_width="262dp"
+            android:layout_height="wrap_content"
+            android:text="@string/historyButton"
+            android:id="@+id/historyButton"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+</RelativeLayout>

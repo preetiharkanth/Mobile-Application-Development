@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HttpDemo</string>
+    <string name="checkNetworkButton">Check Network</string>
+    <string name="image">image</string>
+</resources>

@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<title>Capture Photo</title>
+		
+		<script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js">
+		
+		//button will call this function
+		//
+		function capturePhoto() {
+			//take picture using device camera and retrieve image as base64-encoded string
+			navigator.camera.getPicture(onPhotoDataSuccess, onFail, { quality:50,
+			destinationType: Camera.DestinationType.DATA_URL});
+		}
+		
+		function onPhotoDataSuccess(imageData) {
+			//uncomment to view the base64 encoded image data
+			//console.log(imageData);
+			//Get image handle;
+			//
+			
+			var samllImage = document.getElementByID('smallImage');
+			
+			//Unhide image elements
+			//
+			
+			smallImage.style.display = 'block';
+			
+			//Show the captured photo
+			//The inline CSS rules are used to resize the image
+			smallImage.src="data:image/jpeg;base64," + imageData;
+		}
+		
+		//Called if something bad happens
+		//
+		function onFail(message) {
+			alert('Failed because:' +message);
+		}
+		</script>
+		</head>
+		<body>
+			<button onclick="capturePhoto();">Capture Photo</button><br>
+			<img style="display:none;width:60px;height:60px;" id="samllImage" src="">
+		</body>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ThreadDemo</string>
+    <string name="threadButton">Start Thread</string>
+</resources>

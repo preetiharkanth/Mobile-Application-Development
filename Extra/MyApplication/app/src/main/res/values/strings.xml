@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="cityName">City Name (Eg. Charlotte)</string>
+    <string name="stateName">State Initial (Eg. NC)</string>
+    <string name="saveCityButton">Save City</string>
+    <string name="noCitiesMessage">There are no cities to display. Add using the \"+\" button from the menu</string>
+    <string name="feels_like_label">Feels Like:</string>
+    <string name="humidity_label">Humidity:</string>
+    <string name="dewpoint_label">Dewpoint:</string>
+    <string name="pressure_label">Pressure:</string>
+    <string name="winds_label">Winds:</string>
+    <string name="clouds_label">Clouds:</string>
+    <string name="current_location">Current Location:</string>
+</resources>

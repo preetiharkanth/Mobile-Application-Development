@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Homework3</string>
+    <string name="geek">How Geeky Are You?</string>
+    <string name="exit">Exit</string>
+    <string name="start">Start Quiz</string>
+</resources>

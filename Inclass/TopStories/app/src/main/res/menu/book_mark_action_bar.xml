@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+tools:context=".TopStoriesActivity">
+<item
+    android:id="@+id/showBookMark"
+    android:title="@string/show_bookmark"
+   android:onClick="showBookMark"/>
+<item
+    android:id="@+id/clearBookMark"
+    android:title="@string/clear_all_bookmark"
+    android:action-layout="clearBookMark"/>
+</menu>

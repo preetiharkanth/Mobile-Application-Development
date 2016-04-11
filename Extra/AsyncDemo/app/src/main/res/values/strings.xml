@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AsyncDemo</string>
+
+    <string-array name="passwordlength">
+        <item>8 - 12</item>
+        <item>13 - 17</item>
+    </string-array>
+</resources>

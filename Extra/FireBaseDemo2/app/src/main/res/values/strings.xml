@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FireBaseDemo</string>
+    <string name="action_settings">Settings</string>
+    <string name="conditionTextView">Condition</string>
+    <string name="sunnyButton">Sunny</string>
+    <string name="foggyButton">Foggy</string>
+</resources>
